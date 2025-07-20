@@ -25,3 +25,18 @@ This project uses MediaPipe, OpenCV, and Python sockets to control an RC car usi
 4. The Pi receives the command and moves the RC car accordingly.
 
 ---
+
+Create and activate a virtual environment (Python 3.11):
+py -3.11 -m venv .venv
+.\.venv\Scripts\activate
+
+
+Install dependencies:
+pip install mediapipe opencv-python
+
+On Raspberry Pi:
+Install required GPIO library:
+sudo apt update
+sudo apt install python3-rpi.gpio
+
+Connect the L298N motor driver to the correct GPIO pins.
