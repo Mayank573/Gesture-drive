@@ -25,24 +25,3 @@ This project uses MediaPipe, OpenCV, and Python sockets to control an RC car usi
 4. The Pi receives the command and moves the RC car accordingly.
 
 ---
-
-## Gestures and Commands
-
-| Gesture                  | Command Sent |
-|--------------------------|--------------|
-| Thumb up                 | forward      |
-| Palm facing down         | back         |
-| Thumb pointing left      | left         |
-| Thumb pointing right     | right        |
-| No hand detected / idle  | stop         |
-
----
-
-## Installation and Setup
-
-### On Development PC (Windows):
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/gesture-rc-car.git
-   cd gesture-rc-car
